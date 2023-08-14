@@ -1,0 +1,40 @@
+# Django related
+__pycache__/
+*.py[cod]
+*.sqlite3
+local-cdn
+
+# Virtual environment
+venv/
+.env
+
+# Static files
+staticfiles/
+
+# Compiled CSS (from Tailwind CSS)
+*.css
+
+# Log files
+*.log
+
+# Local development settings
+local_settings.py
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Dependency directories (Python)
+lib/
+bin/
+
+# Dependency directories (Node.js)
+node_modules/
+
+# Build output directories
+build/
+dist/
+
+# Cache directories
+.cache/
+.cached_assets/

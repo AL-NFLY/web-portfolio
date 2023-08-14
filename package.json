@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-django-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i src/static/tailwind/tailwind-input.css -o src/static/css/core-ui.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
