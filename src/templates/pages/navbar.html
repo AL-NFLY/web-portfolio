@@ -1,0 +1,39 @@
+<nav class="flex justify-between items-center h-16 px-4
+            bg-zinc-200 dark:bg-zinc-900
+            text-black dark:text-white 
+            border-b border-zinc-400 dark:border-b-white"
+            >
+
+    <ul class="flex font-semibold">
+        <li class="px-4">
+            <a href="" class="hover:text-cyan-400">
+                ABOUT ME
+            </a>
+        </li>
+
+        <li class="px-4">
+            <a href="#prev-projects" class="hover:text-cyan-400">
+                PROJECTS
+            </a> 
+        </li>
+
+        <li class="px-4">
+            <a href="" class="hover:text-cyan-400">
+                CONTACT
+            </a> 
+        </li>
+    </ul>
+
+    <div>        
+        <a href="{% url 'change-theme' %}" class="bg-zinc-50 dark:bg-zinc-800  
+                                                hover:bg-cyan-400 duration-300  dark:hover:bg-cyan-400
+                                                    px-4 py-2 rounded-xl ">
+                                                    
+            {% if is_dark_theme %}
+                <i class="fa-solid fa-sun w-4"></i>
+            {% else %}
+                <i class="fa-solid fa-moon w-4"></i>
+            {% endif %}
+        </a>
+    </div>
+</nav>

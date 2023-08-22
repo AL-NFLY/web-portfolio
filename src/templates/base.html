@@ -1,17 +1,17 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="{% if is_dark_theme %}dark{% endif %}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/core-ui.css' %}">
+    <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+    <link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
     <title>{% block head_title %} AL-NFLY {% endblock %}</title>
-    {% include 'head/css.html' %}
 </head>
 
-<body>
-    <div>
-        {% block content %}{% endblock content %}
-    </div>    
+<body class="bg-zinc-50 dark:bg-zinc-900 dark:text-white">
+    {% block content %}{% endblock content %}
 </body>
 </html>
