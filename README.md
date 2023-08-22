@@ -4,7 +4,6 @@ An on-going portfolio web project made from my boilerplate based on Django and T
 ## To-Do-List:
 - [x] Initialize Django
 - [x] Integrate TailwindCSS into Django from scratch
-- [x] 
 - [x] Pick theme color (main, secondary, & accent)
 - [x] Create Navbar
 - [x] Create Intro page
