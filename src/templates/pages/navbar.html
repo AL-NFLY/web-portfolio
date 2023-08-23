@@ -1,7 +1,7 @@
 <nav class="flex justify-between items-center h-16 px-4
-            bg-zinc-200 dark:bg-zinc-900
+            bg-zinc-100 dark:bg-zinc-900
             text-black dark:text-white 
-            border-b border-zinc-400 dark:border-b-white"
+            transition-shadow shadow-md dark:border-b border-white"
             >
 
     <ul class="flex font-semibold">
@@ -25,7 +25,7 @@
     </ul>
 
     <div>        
-        <a href="{% url 'change-theme' %}" class="bg-zinc-50 dark:bg-zinc-800  
+        <a href="{% url 'change-theme' %}" class="bg-zinc-50 dark:bg-zinc-800 border dark:border-none shadow-inner 
                                                 hover:bg-gradient-to-r from-cyan-300 to-red-300
                                                 duration-300 px-4 py-2 rounded-xl">
                                                     
