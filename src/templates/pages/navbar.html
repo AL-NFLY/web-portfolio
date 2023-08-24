@@ -1,38 +1,33 @@
-<nav class="flex justify-between items-center h-16 px-4
-            bg-zinc-100 dark:bg-zinc-900
-            text-black dark:text-white 
-            transition-shadow shadow-md dark:border-b border-white"
+<nav class="flex items-center justify-between h-16 px-4 text-black transition-shadow border-white shadow-md bg-zinc-100 dark:bg-zinc-900 dark:text-white dark:border-b"
             >
 
     <ul class="flex font-semibold">
         <li class="px-4">
-            <a href="" class="hover:bg-gradient-to-r from-cyan-300 to-red-300 hover:dark:text-transparent hover:dark:bg-clip-text duration-300">
+            <a href="" class="duration-300 hover:bg-gradient-to-r from-cyan-300 to-red-300 hover:dark:text-transparent hover:dark:bg-clip-text">
                 ABOUT ME
             </a>
         </li>
 
         <li class="px-4">
-            <a href="#past-projects" class="hover:bg-gradient-to-r from-cyan-300 to-red-300 hover:dark:text-transparent hover:dark:bg-clip-text duration-300">
+            <a href="#past-projects" class="duration-300 hover:bg-gradient-to-r from-cyan-300 to-red-300 hover:dark:text-transparent hover:dark:bg-clip-text">
                 PROJECTS
             </a> 
         </li>
 
         <li class="px-4">
-            <a href="#footer" class="hover:bg-gradient-to-r from-cyan-300 to-red-300 hover:dark:text-transparent hover:dark:bg-clip-text duration-300">
+            <a href="#footer" class="duration-300 hover:bg-gradient-to-r from-cyan-300 to-red-300 hover:dark:text-transparent hover:dark:bg-clip-text">
                 CONTACT
             </a> 
         </li>
     </ul>
 
     <div>        
-        <a href="{% url 'change-theme' %}" class="bg-zinc-50 dark:bg-zinc-800 border dark:border-none shadow-inner 
-                                                hover:bg-gradient-to-r from-cyan-300 to-red-300
-                                                duration-300 px-4 py-2 rounded-xl">
+        <a href="{% url 'change-theme' %}" class="px-4 py-2 duration-300 border shadow-inner bg-zinc-50 dark:bg-zinc-800 dark:border-none hover:bg-gradient-to-r from-cyan-300 to-red-300 rounded-xl">
                                                     
             {% if is_dark_theme %}
-                <i class="fa-solid fa-sun w-4"></i>
+                <i class="w-4 fa-solid fa-sun"></i>
             {% else %}
-                <i class="fa-solid fa-moon w-4"></i>
+                <i class="w-4 fa-solid fa-moon"></i>
             {% endif %}
         </a>
     </div>
