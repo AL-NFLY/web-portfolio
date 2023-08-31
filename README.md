@@ -9,6 +9,7 @@ An on-going portfolio web project made from my boilerplate based on Django and T
 - [x] Create Intro page
 - [x] Create Projects page
 - [x] Create Dark-Light mode option 
-- [ ] Create About Me page
-- [ ] Create Contact page
+- [x] Create About Me page
+- [x] Create Contact page
+- [] Move project to MERN stack 
 
