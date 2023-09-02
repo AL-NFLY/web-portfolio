@@ -11,5 +11,5 @@ An on-going portfolio web project made from my boilerplate based on Django and T
 - [x] Create Dark-Light mode option 
 - [x] Create About Me page
 - [x] Create Contact page
-- [] Move project to MERN stack 
+- [] Transform the project into ReactJS 
 
